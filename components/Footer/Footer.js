@@ -3,9 +3,11 @@ import styles from './Footer.module.css';
 
 const Footer = () => {
     return (
-        <div className={styles.container}>
-            Footer
-        </div>
+        <footer>
+            <div className="container mx-auto">
+             <p className="text-center py-8">Designed & Built by Mijan Karim. Powered By Next.js and Tailwind CSS.</p>
+            </div>
+        </footer>
     )
 }
 
