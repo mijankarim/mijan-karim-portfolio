@@ -56,8 +56,8 @@ const Projects = () => {
               <p>{project.type}</p>
               <h3 className="text-4xl mt-2 font-bold">{project.title}</h3>  
               <p className="py-5">{project.description}</p>
-              <a href="#" className="inline-block mr-5 text-xl transform hover:scale-125 duration-500"><FiExternalLink/></a>
-              <a href="#" className="inline-block mr-5 text-xl transform hover:scale-125 duration-500"><FiGithub/></a>
+              <a href={`${project.website}`} className="inline-block mr-5 text-xl transform hover:scale-125 duration-500"><FiExternalLink/></a>
+              <a href={`${project.github}`} className="inline-block mr-5 text-xl transform hover:scale-125 duration-500"><FiGithub/></a>
             </div>
           </div>
         ))}
