@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className="text-purple-700 text-5xl font-bold">
-          Welcome to My Website
+          Welcome to My Website!!! Hosted on Netlify
         </h1>
       </main>
 
