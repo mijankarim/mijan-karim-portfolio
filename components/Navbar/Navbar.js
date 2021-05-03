@@ -5,9 +5,9 @@ import styles from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <header>
-      <div className="container mx-auto grid md:grid-cols-2 py-6 items-center">
+      <div className="container mx-auto grid md:grid-cols-2 py-6 items-center px-4">
         <div className="logo">
-          <h1 className="font-extrabold text-6xl text-primary hover:text-secondary">M</h1>
+          <h1 className="font-extrabold text-6xl text-primary hover:text-secondary animate-bounce">M</h1>
         </div>
         <nav className="float-right" >
           <ul className="flex float-right">

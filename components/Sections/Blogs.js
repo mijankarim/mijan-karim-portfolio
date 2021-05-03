@@ -1,4 +1,5 @@
 import React from "react";
+import SplitText from "../SplitText";
 
 const blogsData = [
   {
@@ -20,8 +21,10 @@ const blogsData = [
 const Blogs = () => {
   return (
     <section className="blogs" id="blogs">
-      <div className="container mx-auto">
-        <h2 className="text-5xl font-bold my-10 py-5">Blogs</h2>
+      <div className="container mx-auto px-4">
+        <h2 className="text-5xl font-bold my-10 py-5">
+        <SplitText copy="Blogs" role="heading"/>
+            </h2>
         <div className="blog-container grid md:grid-cols-2 gap-10">
           {blogsData.map((blog) => (
             <div className="blog mb-12" key={blog.id}>

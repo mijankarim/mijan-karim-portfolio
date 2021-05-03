@@ -8,3 +8,28 @@ body{
     background: #1D1D1D;
     color:#fff;
 }
+
+.animationRb:hover{
+    animation: rubberBand 1s !important;
+  }
+  
+  @keyframes rubberBand{
+    0%{
+        transform: scale3d(1,1,1);
+    }
+    35%{
+        transform: scale3d(1.25,.75,1);
+    }
+    45%{
+        transform: scale3d(.75,1,1);
+    }
+    60%{
+        transform: scale3d(1.2,.8,1);
+    }
+    75%{
+        transform: scale3d(1.05,.95,1);
+    }
+    100%{
+        transform: scale3d(1,1,1);
+    }
+  }

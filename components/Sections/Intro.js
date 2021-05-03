@@ -1,16 +1,17 @@
 import React from "react";
 import Link from "next/link";
+import SplitText from "../SplitText";
 
 const Intro = () => {
   return (
     <section className="intro">
-      <div className="container mx-auto">
-        <h1 className="text-8xl font-bold transform hover:-rotate-1 duration-500 hover:text-secondary">
-          Hi,
-          <br />
-          I'm Mijan,
-          <br />
-          Web Developer
+      <div className="container mx-auto px-4">
+        <h1 className="text-4xl sm:text-7xl md:text-8xl font-bold" aria-label="Text">
+          <SplitText copy="Hi," role="heading" /><br/>
+          <SplitText copy="I'm" role="heading" />
+          <SplitText copy="Mijan," role="heading" /><br/>
+          <SplitText copy="Web" role="heading" />
+          <SplitText copy="Developer" role="heading" />
         </h1>
         <p className="text-2xl my-8 border-solid">Front-end React Developer</p>
         <Link href="/contact">

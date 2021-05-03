@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
+import SplitText from "../SplitText";
 
 const projectsData = [
   {
@@ -39,8 +40,10 @@ const projectsData = [
 const Projects = () => {
   return (
     <section className="projects" id="projects">
-      <div className="container mx-auto">
-        <h2 className="text-5xl font-bold my-10 py-5">Projects</h2>
+      <div className="container mx-auto px-4">
+        <h2 className="text-5xl font-bold my-10 py-5">
+          <SplitText copy="Projects" role="heading"/>
+        </h2>
         {projectsData.map((project) => (
           <div className="project grid md:grid-cols-5 gap-10 mb-12" key={project.id}>
             <div className="md:col-span-2">
@@ -56,8 +59,8 @@ const Projects = () => {
               <p>{project.type}</p>
               <h3 className="text-4xl mt-2 font-bold">{project.title}</h3>  
               <p className="py-5">{project.description}</p>
-              <a href={`${project.website}`} className="inline-block mr-5 text-xl transform hover:scale-125 duration-500"><FiExternalLink/></a>
-              <a href={`${project.github}`} className="inline-block mr-5 text-xl transform hover:scale-125 duration-500"><FiGithub/></a>
+              <a href={`${project.website}`} className="inline-block mr-5 text-xl transform hover:scale-125 duration-500 animate-bounce"><FiExternalLink/></a>
+              <a href={`${project.github}`} className="inline-block mr-5 text-xl transform hover:scale-125 duration-500 animate-bounce"><FiGithub/></a>
             </div>
           </div>
         ))}
