@@ -56,16 +56,16 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <section className="projects" id="projects" data-aos="fade-up">
+    <section className="projects" id="projects">
       <div className="container mx-auto px-4 sm:px-10">
-        <h2 className="text-5xl md:text-6xl font-bold my-10 py-5 text-secondary" data-aos="zoom-in-left">
+        <h2 className="text-5xl md:text-6xl font-bold my-10 py-5 text-secondary">
           <SplitText copy="Projects" role="heading" />
         </h2>
         {projectsData.map((project) => (
           <div
             className="project grid md:grid-cols-5 gap-10 mb-12"
             key={project.id}
-            data-aos="zoom-in-up"
+            
           >
             <div className="md:col-span-2">
               <Image

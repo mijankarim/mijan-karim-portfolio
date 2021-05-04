@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <section className="intro">
       <div className="container mx-auto px-4 sm:px-10 grid sm:grid-cols-3 gap-5">
-        <div className="sm:col-span-2" data-aos="zoom-in-right">
+        <div className="sm:col-span-2">
           <h1
             className="text-4xl sm:text-5xl md:text-6xl xl:text-8xl font-bold"
             aria-label="Text"
@@ -47,7 +47,7 @@ const Intro = () => {
             </button>
           </Link>
         </div>
-        <div data-aos="zoom-in-left">
+        <div>
           <Image
             src="/developer.png"
             layout="responsive"
