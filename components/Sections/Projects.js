@@ -83,7 +83,7 @@ const Projects = () => {
               <p className="py-5">{project.description}</p>
               <ul className="ml-0 pl-0 mb-7">
                 {project.tech.map((t) => (
-                  <li className="inline-block mr-4 text-secondary">{t}</li>
+                  <li className="inline-block mr-4 text-secondary" key={t}>{t}</li>
                 ))}
               </ul>
 

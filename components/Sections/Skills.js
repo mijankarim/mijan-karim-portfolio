@@ -91,7 +91,7 @@ const Skills = () => {
         <div className="my-6 flex flex-wrap">
             {
                 skillsData.map(skill => (
-                    <div className="flex flex-col items-center  mr-3 sm:mr-5 mb-5" key={skill.id}>
+                    <div className="flex flex-col items-center  mr-3 sm:mr-8 mb-5 hover:animate-bounce transition duration-500" key={skill.id}>
                     <span className="leading-custom text-xl sm:text-5xl text-secondary hover:text-secondary_hover">{skill.icon}</span> 
                     <span className="text-base sm:text-base mt-3">{skill.title}</span>
                   </div> 

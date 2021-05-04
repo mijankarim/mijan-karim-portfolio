@@ -24,17 +24,17 @@ const Intro = () => {
           <p className="text-2xl my-6">Front-end React Developer</p>
 
           <ul className="mb-8">
-            <li class="inline-block mr-5 text-2xl text-secondary hover:text-secondary_hover hover:animate-bounce">
+            <li className="inline-block mr-5 text-2xl text-secondary hover:text-secondary_hover hover:animate-bounce">
               <a href="https://github.com/mijankarim" target="_blank">
                 <FaGithub />
               </a>
             </li>
-            <li class="inline-block mr-5 text-2xl text-secondary hover:text-secondary_hover hover:animate-bounce">
+            <li className="inline-block mr-5 text-2xl text-secondary hover:text-secondary_hover hover:animate-bounce">
               <a href="https://www.linkedin.com/in/mijankarim/" target="_blank">
                 <FaLinkedin />
               </a>
             </li>
-            <li class="inline-block mr-5 text-2xl text-secondary hover:text-secondary_hover hover:animate-bounce">
+            <li className="inline-block mr-5 text-2xl text-secondary hover:text-secondary_hover hover:animate-bounce">
               <a href="https://twitter.com/mkatbd" target="_blank">
                 <FaTwitterSquare />
               </a>
@@ -42,7 +42,7 @@ const Intro = () => {
           </ul>
 
           <Link href="https://drive.google.com/uc?export=download&id=1AIXRv10_fzfX8OGMm8KkgMnJv2z5MDtp">
-            <button className="bg-bg_color hover:bg-secondary text-secondary hover:text-bg_color py-2 px-4 border border-secondary shadow">
+            <button className="bg-bg_color hover:bg-secondary text-secondary hover:text-bg_color py-2 px-4 border border-secondary shadow duration-500">
               Download Resume
             </button>
           </Link>
