@@ -72,12 +72,12 @@ const Projects = () => {
                 width="1000"
                 height="483"
                 layout="responsive"
-                className="transform hover:scale-125 hover:rotate-2 duration-500"
+                className="transform hover:scale-125 hover:rotate-2 duration-500 ease-in-out"
               />
             </div>
             <div className="md:col-span-3">
               <p className="text-primary">{project.type}</p>
-              <h3 className="text-4xl mt-2 font-bold text-secondary hover:text-secondary_hover">
+              <h3 className="text-4xl mt-2 font-bold text-secondary duration-500 hover:text-secondary_hover">
                 {project.title}
               </h3>
               <p className="py-5">{project.description}</p>

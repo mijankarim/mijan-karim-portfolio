@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Blogs from '../components/Sections/Blogs'
+import Contact from '../components/Sections/Contact'
 import Intro from '../components/Sections/Intro'
 import Projects from '../components/Sections/Projects'
+import Skills from '../components/Sections/Skills'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,8 +17,10 @@ export default function Home() {
 
       <div className="">
         <Intro/>
+        <Skills/>
         <Projects/>
         <Blogs/>
+        <Contact/>
       </div>
 
     </div>

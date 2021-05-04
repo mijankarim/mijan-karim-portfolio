@@ -53,6 +53,7 @@ const Intro = () => {
             layout="responsive"
             width="16"
             height="16"
+            className="transform duration-500 hover:scale-110"
           />
         </div>
       </div>

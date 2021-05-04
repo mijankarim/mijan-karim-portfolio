@@ -6,14 +6,14 @@ const blogsData = [
     id: 1,
     title: "How to setup Tailwind CSS in Next.js",
     content:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean commodo ligula eget dolor...",
+      "Coming soon...",
     link: "#"
   },
   {
     id: 1,
     title: "How to add Google Fonts to Next.js",
     content:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean commodo ligula eget dolor...",
+      "Coming soon..",
     link: "#",
   },
 ];
@@ -28,7 +28,7 @@ const Blogs = () => {
         <div className="blog-container grid md:grid-cols-2 gap-10">
           {blogsData.map((blog) => (
             <div className="blog mb-12" key={blog.id}>
-              <h3 className="text-4xl font-bold text-primary hover:text-secondary mb-5">{blog.title}</h3>
+              <h3 className="text-4xl font-bold text-primary duration-500 hover:text-secondary mb-5">{blog.title}</h3>
               <p className="mb-3">{blog.content}</p>
               <a href="#" className="text-secondary hover:text-secondary_hover">Read More</a>
             </div>
