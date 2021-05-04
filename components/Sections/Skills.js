@@ -83,12 +83,12 @@ const Skills = () => {
   return (
     <section className="skills" id="skills">
       <div className="container mx-auto px-4 sm:px-10">
-        <h2 className="text-5xl md:text-6xl font-bold my-10 py-5 text-secondary">
+        <h2 className="text-5xl md:text-6xl font-bold my-10 py-5 text-secondary" data-aos="fade-up-left">
           <SplitText copy="My" role="heading" />
           <SplitText copy="Skills" role="heading" />
         </h2>
         <p className="mb-8">Here are a few technologies I've been working with recently</p>
-        <div className="my-6 flex flex-wrap">
+        <div className="my-6 flex flex-wrap" data-aos="fade-up-left">
             {
                 skillsData.map(skill => (
                     <div className="flex flex-col items-center  mr-3 sm:mr-8 mb-5 hover:animate-bounce transition duration-500" key={skill.id}>
