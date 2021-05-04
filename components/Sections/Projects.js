@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import SplitText from "../SplitText";
+import RubberBand from 'react-reveal/RubberBand';
+import Fade from 'react-reveal/Fade';
 
 const projectsData = [
   {
@@ -58,9 +60,12 @@ const Projects = () => {
   return (
     <section className="projects" id="projects">
       <div className="container mx-auto px-4 sm:px-10">
+      <RubberBand>
         <h2 className="text-5xl md:text-6xl font-bold my-10 py-5 text-secondary">
           <SplitText copy="Projects" role="heading" />
         </h2>
+        </RubberBand>
+        <Fade left>
         {projectsData.map((project) => (
           <div
             className="project grid md:grid-cols-5 gap-10 mb-12"
@@ -103,6 +108,7 @@ const Projects = () => {
             </div>
           </div>
         ))}
+        </Fade>
       </div>
     </section>
   );

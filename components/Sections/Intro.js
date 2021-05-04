@@ -3,12 +3,15 @@ import Link from "next/link";
 import Image from "next/image";
 import SplitText from "../SplitText";
 import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import RubberBand from 'react-reveal/RubberBand';
+import Fade from 'react-reveal/Fade';
 
 const Intro = () => {
   return (
     <section className="intro">
       <div className="container mx-auto px-4 sm:px-10 grid sm:grid-cols-3 gap-5">
         <div className="sm:col-span-2">
+        <Fade left>
           <h1
             className="text-4xl sm:text-5xl md:text-6xl xl:text-8xl font-bold"
             aria-label="Text"
@@ -21,6 +24,7 @@ const Intro = () => {
             <SplitText copy="Web" role="heading" />
             <SplitText copy="Developer" role="heading" />
           </h1>
+          </Fade>
           <p className="text-2xl my-6">Front-end React Developer</p>
 
           <ul className="mb-8">
