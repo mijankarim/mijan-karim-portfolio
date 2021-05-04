@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
   return (
     <header>
-      <div className="container mx-auto grid grid-cols-4 py-6 items-center px-4">
+      <div className="container mx-auto grid grid-cols-4 py-6 items-center px-4 sm:px-10">
         <div className="logo col-span-1 sm:col-span-2">
           <h1 className="font-extrabold text-6xl text-primary hover:text-secondary animate-bounce">M</h1>
         </div>

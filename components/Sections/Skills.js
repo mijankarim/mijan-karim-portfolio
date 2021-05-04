@@ -82,7 +82,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <section className="skills" id="skills">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 sm:px-10">
         <h2 className="text-5xl md:text-6xl font-bold my-10 py-5 text-secondary">
           <SplitText copy="My" role="heading" />
           <SplitText copy="Skills" role="heading" />

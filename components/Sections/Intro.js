@@ -7,10 +7,10 @@ import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 const Intro = () => {
   return (
     <section className="intro">
-      <div className="container mx-auto px-4 grid sm:grid-cols-3 gap-5">
+      <div className="container mx-auto px-4 sm:px-10 grid sm:grid-cols-3 gap-5">
         <div className="sm:col-span-2">
           <h1
-            className="text-4xl sm:text-7xl md:text-8xl font-bold"
+            className="text-4xl sm:text-5xl md:text-6xl xl:text-8xl font-bold"
             aria-label="Text"
           >
             <SplitText copy="Hi," role="heading" />

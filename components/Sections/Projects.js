@@ -57,7 +57,7 @@ const projectsData = [
 const Projects = () => {
   return (
     <section className="projects" id="projects">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 sm:px-10">
         <h2 className="text-5xl md:text-6xl font-bold my-10 py-5 text-secondary">
           <SplitText copy="Projects" role="heading" />
         </h2>
