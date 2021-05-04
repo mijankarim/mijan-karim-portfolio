@@ -19,7 +19,7 @@ const Navbar = () => {
             </li>
            
             <li className="mr-5 sm:mr-20 cursor-pointer">
-              <Link activeClass="active" to="blogs" spy={true} smooth={true} duration={1000}>Blogs</Link>
+              <Link activeClass="active" to="blogs" spy={true} smooth={true} duration={1000}>Blog</Link>
             </li>
             <li className="sm:mr-0 cursor-pointer">
               <Link activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>Contact</Link>

@@ -23,7 +23,7 @@ const Blogs = () => {
     <section className="blogs" id="blogs">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl md:text-6xl font-bold my-10 py-5 text-secondary">
-        <SplitText copy="Blogs" role="heading"/>
+        <SplitText copy="Blog" role="heading"/>
             </h2>
         <div className="blog-container grid md:grid-cols-2 gap-10">
           {blogsData.map((blog) => (
