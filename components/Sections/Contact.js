@@ -15,6 +15,7 @@ const Contact = () => {
             <SplitText copy="Touch" role="heading" />
           </h2>
         </RubberBand>
+        <Fade left>
         <p className="mb-8">
           I am interested in Remote React Developer Role. However, If you have
           other request or question, don't hesitate to contact me.
@@ -24,6 +25,7 @@ const Contact = () => {
             Say Hello
           </button>
         </Link>
+        </Fade> 
       </div>
     </section>
   );

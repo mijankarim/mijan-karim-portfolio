@@ -1,19 +1,12 @@
-import React, {useEffect} from 'react';
-import Head from 'next/head'
-import Blogs from '../components/Sections/Blogs'
-import Contact from '../components/Sections/Contact'
-import Intro from '../components/Sections/Intro'
-import Projects from '../components/Sections/Projects'
-import Skills from '../components/Sections/Skills'
-import AOS from "aos";
+import React, { useEffect } from "react";
+import Head from "next/head";
+import Blogs from "../components/Sections/Blogs";
+import Contact from "../components/Sections/Contact";
+import Intro from "../components/Sections/Intro";
+import Projects from "../components/Sections/Projects";
+import Skills from "../components/Sections/Skills";
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init({
-      duration : 1000
-    });
-  });
-
   return (
     <div>
       <Head>
@@ -23,13 +16,12 @@ export default function Home() {
       </Head>
 
       <div className="">
-        <Intro/>
-        <Skills/>
-        <Projects/>
-        <Blogs/>
-        <Contact/>
+        <Intro />
+        <Skills />
+        <Projects />
+        <Blogs />
+        <Contact />
       </div>
-
     </div>
-  )
+  );
 }
